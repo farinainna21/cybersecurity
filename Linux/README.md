@@ -45,7 +45,6 @@ _Note: Use the [Markdown Table Generator](http://www.tablesgenerator.com/markdow
 | Jump Box | Gateway  | 20.37.46.129   | Linux            |
 | DVWA-VM1   File beat ||13.73.117.182 |                  |
 | ELK     | ELK SERVER |10.1.0.4   |                  |
-| TODO     |          |            |                  |
 
 ### Access Policies
 
@@ -71,7 +70,7 @@ A summary of the access policies in place can be found in the table below.
 ### Elk Configuration
 
 Ansible was used to automate configuration of the ELK machine. No configuration was performed manually, which is advantageous because...
-- _TODO: What is the main advantage of automating configuration with Ansible?_ Install docker.io
+ What is the main advantage of automating configuration with Ansible?_ Install docker.io
 The playbook implements the following tasks:
 
 Install docker.io
@@ -89,8 +88,7 @@ Diagrams/dockerps.PNG
 
 
 
-The playbook implements the following tasks:
-- _TODO: In 3-5 bullets, explain the steps of the ELK installation play. E.g., install Docker; download image; etc._
+The playbook implements the following tasks:: In 3-5 bullets, explain the steps of the ELK installation play. E.g., install Docker; download image; etc._
 - ...
 - ...
 
@@ -122,7 +120,7 @@ SSH into the control node and follow the steps below:
 - Update the config file to include your ELK-server's private IP address. (filebeat-config.yml: lines 1106 & 1806, metricbeat-config.yml: lines 62 & 96)
 - Run the playbook, and navigate to http://[ELK-server-public-IP]:5601/app/kibana to check that the installation worked as expected__ to check that the installation worked as expected.
 
-_TODO: Answer the following questions to fill in the blanks:_
+ Answer the following questions to fill in the blanks:_
 - _Which file is the playbook? Where do you copy it?_
 /etc/ansible/roles/filebeat-playbook.yml is the filebeat playbook. 
 
